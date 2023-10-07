@@ -31,7 +31,7 @@ if Local.Character then
 	local Remote = game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ParryAttempt")
 	local WorldToScreenPoint = Camera:WorldToScreenPoint(Local.Character.HumanoidRootPart.Position)
 	local args = {
-		[1] = 0.5,
+		[1] = 1.5,
 		[2] = workspace.CurrentCamera.CFrame,
 		[3] = PlayerPoints(),
 		[4] = {
